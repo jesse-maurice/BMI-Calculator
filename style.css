@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  font-family: "Pacifico", sans-serif;
+  background: rgb(11, 31, 10);
+  display: grid;
+  place-items: center;
+}
+
+.BMI-container {
+  height: 350px;
+  width: 300px;
+  background: #fff;
+  border-radius: 20px;
+}
+
+.bmi-container-title {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.bmi-container-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 0 40px;
+}
+
+#weight {
+  background: rgb(11, 31, 10, 40%);
+}
+
+#height {
+  background: rgb(11, 31, 10, 40%);
+}
+
+input {
+  padding: 10px 4px;
+  width: 50px;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid rgb(11, 31, 10);
+  text-align: center;
+}
+
+.bmi-container-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.text {
+  font-size: 15px;
+}
+
+.bmi-container-button {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.bmi-btn {
+  padding: 10px 50px;
+  border-radius: 10px;
+  border: 2px solid green;
+  background: green;
+  font-weight: bold;
+  font-size: 10px;
+  color: #fff;
+  transition: 1s;
+}
+
+.bmi-btn:hover {
+  background-color: rgb(4, 165, 4);
+}
+
+@media only screen and (min-width: 768px) {
+  .BMI-container {
+    width: 400px;
+  }
+} ;
